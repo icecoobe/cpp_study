@@ -1,0 +1,11 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": 
+  {
+    "ghcr.io/devcontainers-community/features/bazel:1": {},
+    "ghcr.io/devcontainers-extra/features/cmake:1": {},
+    // didn't find conan feature ...
+    "ghcr.io/msclock/features/vcpkg:2": {},
+    "ghcr.io/devcontainers-extra/features/zsh-plugins:0": {}
+  }
+}
